@@ -1,0 +1,27 @@
+from traceback import print_tb
+
+fruits = ["apple", "banana", "cherry"]
+print(fruits)
+print(fruits[0])
+print(fruits[1])
+print(fruits[2])
+print(fruits[-1])
+fruits.append("orange")
+print(fruits)
+fruits.remove("banana")
+print(fruits)
+print(fruits.pop())
+print(fruits)
+
+fruits.insert(0,"apple")
+print(fruits)
+fruits.extend(["apple"])
+print(fruits)
+print(fruits.index("apple"))
+fruits.sort()
+print(fruits)
+fruits.reverse()
+print(fruits)
+print(fruits.count("apple"))
+newfruits = fruits.copy()
+print(newfruits)
